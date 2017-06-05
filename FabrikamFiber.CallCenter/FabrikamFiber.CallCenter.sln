@@ -1,0 +1,146 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22606.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web", "FabrikamFiber.Web\FabrikamFiber.Web.csproj", "{456D6BF0-21B0-4995-9D77-76FA13AD95DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web.Tests", "FabrikamFiber.Web.Tests\FabrikamFiber.Web.Tests.csproj", "{2FE8E250-4218-4B31-AB23-D9B91ABD842B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Extranet.Web", "FabrikamFiber.Extranet.Web\FabrikamFiber.Extranet.Web.csproj", "{A8E4732A-F2F0-4953-8946-46A1900F65A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Extranet.Web.Tests", "FabrikamFiber.Extranet.Web.Tests\FabrikamFiber.Extranet.Web.Tests.csproj", "{5F674CB4-3098-40B2-9EFD-5D754348974D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.DAL", "FabrikamFiber.DAL\FabrikamFiber.DAL.csproj", "{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web.UITests", "FabrikamFiber.Web.UITests\FabrikamFiber.Web.UITests.csproj", "{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{665D3A79-ECDD-4379-8AC2-101303BF88C3}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\EntityFramework.dll = Libs\EntityFramework.dll
+		Libs\Ninject.dll = Libs\Ninject.dll
+		Libs\Ninject.Web.Mvc.dll = Libs\Ninject.Web.Mvc.dll
+		Libs\nunit.framework.dll = Libs\nunit.framework.dll
+		Libs\nunit.mocks.dll = Libs\nunit.mocks.dll
+		Libs\pnunit.framework.dll = Libs\pnunit.framework.dll
+		Libs\System.Data.SqlServerCe.dll = Libs\System.Data.SqlServerCe.dll
+		Libs\System.Data.SqlServerCe.Entity.dll = Libs\System.Data.SqlServerCe.Entity.dll
+		Libs\T4Scaffolding.dll = Libs\T4Scaffolding.dll
+		Libs\WebActivator.dll = Libs\WebActivator.dll
+		Libs\xunit.dll = Libs\xunit.dll
+		Libs\xunit.extensions.dll = Libs\xunit.extensions.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App Projects", "App Projects", "{DDB1489A-482B-41A1-B13B-F9FF93CE108E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{DF8AE614-8E4D-4BDA-9879-7331588005B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C50E435C-00BD-454D-A547-3D51A58ADD9E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{68013E5E-5CF7-4CE1-B321-EE330FB455FA}"
+	ProjectSection(SolutionItems) = preProject
+		CI-CodeCoverage.RunSettings = CI-CodeCoverage.RunSettings
+		DataCollector-Level2.testsettings = DataCollector-Level2.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Definitions", "Service Definitions", "{762CCF2C-2DF5-4BE7-B2D1-E812A700F754}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\vikris\Desktop\Weather-Outage.wsdl = ..\..\Users\vikris\Desktop\Weather-Outage.wsdl
+		WeatherWSDL Test Steps.txt = WeatherWSDL Test Steps.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web.PureSeleniumTests", "FabrikamFiber.Web.PureSeleniumTests\FabrikamFiber.Web.PureSeleniumTests.csproj", "{AF7F18E7-E7D0-4250-A6E2-8A2D900E22DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B160C3A-0040-46E2-97B5-D707FFCD23E3}"
+	ProjectSection(SolutionItems) = preProject
+		runsettings.runsettings = runsettings.runsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{456D6BF0-21B0-4995-9D77-76FA13AD95DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456D6BF0-21B0-4995-9D77-76FA13AD95DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456D6BF0-21B0-4995-9D77-76FA13AD95DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456D6BF0-21B0-4995-9D77-76FA13AD95DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE8E250-4218-4B31-AB23-D9B91ABD842B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE8E250-4218-4B31-AB23-D9B91ABD842B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE8E250-4218-4B31-AB23-D9B91ABD842B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE8E250-4218-4B31-AB23-D9B91ABD842B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E4732A-F2F0-4953-8946-46A1900F65A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E4732A-F2F0-4953-8946-46A1900F65A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E4732A-F2F0-4953-8946-46A1900F65A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E4732A-F2F0-4953-8946-46A1900F65A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F674CB4-3098-40B2-9EFD-5D754348974D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F674CB4-3098-40B2-9EFD-5D754348974D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F674CB4-3098-40B2-9EFD-5D754348974D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F674CB4-3098-40B2-9EFD-5D754348974D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7F18E7-E7D0-4250-A6E2-8A2D900E22DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7F18E7-E7D0-4250-A6E2-8A2D900E22DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7F18E7-E7D0-4250-A6E2-8A2D900E22DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7F18E7-E7D0-4250-A6E2-8A2D900E22DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{456D6BF0-21B0-4995-9D77-76FA13AD95DA} = {DDB1489A-482B-41A1-B13B-F9FF93CE108E}
+		{2FE8E250-4218-4B31-AB23-D9B91ABD842B} = {DF8AE614-8E4D-4BDA-9879-7331588005B1}
+		{A8E4732A-F2F0-4953-8946-46A1900F65A4} = {DDB1489A-482B-41A1-B13B-F9FF93CE108E}
+		{5F674CB4-3098-40B2-9EFD-5D754348974D} = {DF8AE614-8E4D-4BDA-9879-7331588005B1}
+		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442} = {DDB1489A-482B-41A1-B13B-F9FF93CE108E}
+		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C} = {DF8AE614-8E4D-4BDA-9879-7331588005B1}
+		{68013E5E-5CF7-4CE1-B321-EE330FB455FA} = {DF8AE614-8E4D-4BDA-9879-7331588005B1}
+		{762CCF2C-2DF5-4BE7-B2D1-E812A700F754} = {DF8AE614-8E4D-4BDA-9879-7331588005B1}
+		{AF7F18E7-E7D0-4250-A6E2-8A2D900E22DD} = {DF8AE614-8E4D-4BDA-9879-7331588005B1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bugbashm812.adityatfs.tfsallin.net/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FabrikamFiber.DAL\\FabrikamFiber.DAL.csproj
+		SccProjectTopLevelParentUniqueName1 = FabrikamFiber.CallCenter.sln
+		SccProjectName1 = FabrikamFiber.DAL
+		SccLocalPath1 = FabrikamFiber.DAL
+		SccProjectUniqueName2 = FabrikamFiber.Extranet.Web.Tests\\FabrikamFiber.Extranet.Web.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = FabrikamFiber.CallCenter.sln
+		SccProjectName2 = FabrikamFiber.Extranet.Web.Tests
+		SccLocalPath2 = FabrikamFiber.Extranet.Web.Tests
+		SccProjectUniqueName3 = FabrikamFiber.Extranet.Web\\FabrikamFiber.Extranet.Web.csproj
+		SccProjectTopLevelParentUniqueName3 = FabrikamFiber.CallCenter.sln
+		SccProjectName3 = FabrikamFiber.Extranet.Web
+		SccLocalPath3 = FabrikamFiber.Extranet.Web
+		SccProjectUniqueName4 = FabrikamFiber.Web.PureSeleniumTests\\FabrikamFiber.Web.PureSeleniumTests.csproj
+		SccProjectTopLevelParentUniqueName4 = FabrikamFiber.CallCenter.sln
+		SccProjectName4 = FabrikamFiber.Web.PureSeleniumTests
+		SccLocalPath4 = FabrikamFiber.Web.PureSeleniumTests
+		SccProjectUniqueName5 = FabrikamFiber.Web.Tests\\FabrikamFiber.Web.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = FabrikamFiber.CallCenter.sln
+		SccProjectName5 = FabrikamFiber.Web.Tests
+		SccLocalPath5 = FabrikamFiber.Web.Tests
+		SccProjectUniqueName6 = FabrikamFiber.Web.UITests\\FabrikamFiber.Web.UITests.csproj
+		SccProjectTopLevelParentUniqueName6 = FabrikamFiber.CallCenter.sln
+		SccProjectName6 = FabrikamFiber.Web.UITests
+		SccLocalPath6 = FabrikamFiber.Web.UITests
+		SccProjectUniqueName7 = FabrikamFiber.Web\\FabrikamFiber.Web.csproj
+		SccProjectTopLevelParentUniqueName7 = FabrikamFiber.CallCenter.sln
+		SccProjectName7 = FabrikamFiber.Web
+		SccLocalPath7 = FabrikamFiber.Web
+	EndGlobalSection
+EndGlobal
